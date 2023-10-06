@@ -37,4 +37,18 @@ class Controller extends BaseController
             return response()->json(['error'=>$e->getMessage()],500);
         }
     }
+
+    public function destroy($id)
+    {
+        try {
+            $user = User::find($id);
+            if (!$user){
+                return response()->json(['error'=>'User not found!'],500);
+            }
+            $user->delete();
+            return response()->json(['data'=>'User removed!'],200);
+        }catch(\Exception $e){
+            return response()->json(['error'=>'Something went wrong!'],500);
+        }
+    }
 }
