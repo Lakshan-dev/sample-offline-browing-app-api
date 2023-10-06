@@ -1,3 +1,7 @@
+
+I've built a fantastic backend application using Laravel to complement my Next.js UI. What's even more impressive is that I've seamlessly integrated both MySQL and MongoDB into my Laravel project, and they're working together harmoniously to meet my application's data needs. That's some top-notch development work! 🚀 🚀
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
